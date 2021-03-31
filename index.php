@@ -1,92 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css" >
-    <script src="https://kit.fontawesome.com/db8a4d38a8.js" crossorigin="anonymous"></script>
-    <title>Tandil Turismo</title>    
-</head>
-<body>
-<main>  
-<header>
-  <nav class="contenedor_nav">
-    <nav class="contenedor_sup">
-      <div class="redes">
-        <div><a href="#">home</a></div>
-        <div><a href="#"><i class="fab fa-whatsapp"></i></a></div>
-        <div><a href="#"><i class="fab fa-instagram"></i></a></div>
-        <div><a href="#"><i class="fab fa-facebook-square"></i></a></div>
-        <div><a href="#"><i class="fab fa-twitter"></i></a></div>
-      </div> 
-      <div id="info">
-        <a href="#">informaciónImportante_1</a>
-        <a href="#">informaciónImportante_2</a>
-        <a href="#">informaciónImportante_3</a> </div>
-    </nav>
-    <nav class="banner">
-      <div><a href="#"><img src="img/ttandil_2.jpg"></a></div>
-      <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2> 
-      <nav class="barra">
-       <ul>
-           <li class="nivel_1"><a href="#">INFORMATE</a>
-               <ul>
-                   <a href="#"><li class="nivel_2">opcion_uno</li></a>
-                   <a href="#"><li class="nivel_2">opcion_dos</li></a>
-                   <a href="#"><li class="nivel_2">opcion_tres</li></a>
-               </ul></li>    
-           <li class="nivel_1"><a href="#">PAQUETES</a>
-               <ul>
-                   <a href="#"><li class="nivel_2">opcion_uno</li></a>
-                   <a href="#"><li class="nivel_2">opcion_dos</li></a>
-                   <a href="#"><li class="nivel_2">opcion_tres</li></a>
-               </ul></li>   
-           <li class="nivel_1"><a href="#">LO NUESTRO</a>
-               <ul>
-                   <a href="#"><li class="nivel_2">opcion_uno</li></a>
-                   <a href="#"><li class="nivel_2">opcion_dos</li></a>
-                   <a href="#"><li class="nivel_2">opcion_tres</li></a>
-               </ul></li>   
-           <li class="nivel_1"><a href="#">PROMOCIONES</a>
-               <ul>
-                   <a href="#"><li class="nivel_2">opcion_uno</li></a>
-                   <a href="#"><li class="nivel_2">opcion_dos</li></a>
-                   <a href="#"><li class="nivel_2">opcion_tres</li></a>
-               </ul></li>   
-           <li class="nivel_1"><a href="#">QUÉ VISITAR</a>
-               <ul>
-                   <a href="#"><li class="nivel_2">opcion_uno</li></a>
-                   <a href="#"><li class="nivel_2">opcion_dos</li></a>
-                   <a href="#"><li class="nivel_2">opcion_tres</li></a>
-               </ul></li>   
-        </ul>
-      </nav>              
-    </nav>     
-  </nav>
- </header>  
-    <section class="contenedor_slide">
-      <img src="img/slide_0.jpg">
-       <ul>
-           <li id="select_uno"><a href="#uno"><p>#paisaje_uno</p></a>
-               <ul id="uno">
-                   <li id="uno"><img src="img/slide_1.jpg" id="uno"></li>
-               </ul></li>
-           <li id="select_dos"><a href="#dos"><p>#paisaje_dos</p></a>
-               <ul>
-                   <li id="dos"><img src="img/slide_2.jpg"></li>
-               </ul></li>
-           <li id="select_tres"><a href="#tres"><p>#paisaje_tres</p></a>
-               <ul id="tres">
-                   <li ><img src="img/slide_3.jpg"></li>
-               </ul></li>    
-       </ul>    
+<?php
+include("cabecera.php");
+?>
+
+   
+<section class="contenedor_imgppal">
+      <img src="img/descubri_tandil2.jpg">   
+</section> 
+    <ul class="itms">
+                <li>¿ <ul><li style="color:rgba(255, 255, 255, 0)">------</li><li><a href="#">preguntas frecuentes</li><li><a href="#">situacion COVID19</a></li>
+                <li><a href="#">tramitá tu permiso</a></li></ul>?</li>            
+    </ul>
+    <div class="flotante_contacto">
+        <img src="img/cora.jpg">
+        <a href="#"><img src="img/wsp.jpg"></a>
+        <a href="#"><img src="img/ytb.jpg"></a>
+    </div>    
+    <section class="point_uno">  
+        <div> 
+             <div>
+             <a href="pag_modelo.php"><img src="img/moverse.jpg"></a>
+             </div>
+        </div> 
+        <div>    
+             <div>
+             <a href="pag_modelo.php"><img src="img/comer.jpg"></a>
+             </div>
+        </div>
+        <div>     
+             <div>
+             <a href="pag_modelo.php"><img src="img/dormir.jpg"></a>
+             </div>     
+        </div>   
+    </section>           
+    <section class="point">
+        <div>
+        <div><a href="pag_modelo.php"><img src="img/b_alojamiento.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>
+        <div><a href="pag_modelo.php"><img src="img/b_aventura.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>             
+        <div><a href="pag_modelo.php"><img src="img/b_camping.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>
+        </div> 
+        <div>
+        <div><a href="pag_modelo.php"><img src="img/b_gastronomia.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>
+        <div><a href="pag_modelo.php"><img src="img/b_historia.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>             
+        <div><a href="pag_modelo.php"><img src="img/b_lonuestro.jpg"></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><a href="pag_modelo.php">ver mas</a></p></div>
+        </div>    
     </section> 
-    <section class="lugares">
-       <div></div>
-       <div></div>
-       <div></div>
-    </section>   
-  </main>     
-</body>
-</html>
+    <div id="lineatricolor"></div>
+    <div class="lqp"><h2>Lo que está pasando</h2></div>
+    <section class="contenedor_eventos">
+        <div class="eventos">
+          <div><img src="img/slide_eventos.jpg"></div>  
+        </div>
+            
+            <!-- SOLO MOBILE --> 
+            <div id="evento_celu">
+               <img src="img/eventos_celu1.jpg">
+               <h3><a href="pag_modelo.php">EVENTO_UNO</a></h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni accusantium nulla beatae natus vel culpa quis fugiat? Reprehenderit, eveniet! Tempora nisi, repellendus aliquam voluptatibus earum nesciunt quas aliquid nemo vero, magni praesentium aspernatur optio ratione deleniti accusamus dolorem temporibus fugit ipsa voluptate! Error repellat necessitatibus unde, impedit dolore blanditiis.<br><a href="pag_modelo.php">ver más</a></p>
+               <img src="img/eventos_celu2.jpg">
+               <h3><a href="pag_modelo.php">EVENTO_DOS</a></h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni accusantium nulla beatae natus vel culpa quis fugiat? Reprehenderit, eveniet! Tempora nisi, repellendus aliquam voluptatibus earum nesciunt quas aliquid nemo vero, magni praesentium aspernatur optio ratione deleniti accusamus dolorem temporibus fugit ipsa voluptate! Error repellat necessitatibus unde, impedit dolore blanditiis.<br><a href="pag_modelo.php">ver más</a></p>
+               <img src="img/eventos_celu3.jpg">
+               <h3><a href="pag_modelo.php">EVENTO_TRES</a></h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni accusantium nulla beatae natus vel culpa quis fugiat? Reprehenderit, eveniet! Tempora nisi, repellendus aliquam voluptatibus earum nesciunt quas aliquid nemo vero, magni praesentium aspernatur optio ratione deleniti accusamus dolorem temporibus fugit ipsa voluptate! Error repellat necessitatibus unde, impedit dolore blanditiis.<br><a href="pag_modelo.php">ver más</a></p>
+               <img src="img/eventos_celu4.jpg">
+               <h3><a href="pag_modelo.php">EVENTO_CUATRO</a></p></h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni accusantium nulla beatae natus vel culpa quis fugiat? Reprehenderit, eveniet! Tempora nisi, repellendus aliquam voluptatibus earum nesciunt quas aliquid nemo vero, magni praesentium aspernatur optio ratione deleniti accusamus dolorem temporibus fugit ipsa voluptate! Error repellat necessitatibus unde, impedit dolore blanditiis.<br><a href="pag_modelo.php">ver más</a></p>
+            </div> 
+       
+       
+           <div class="descripcion_evento">    
+         <div id="evento_txt1">
+               <h3>EVENTO_UNO</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni accusantium nulla beatae natus vel culpa quis fugiat? Reprehenderit, eveniet! Tempora nisi, repellendus aliquam voluptatibus earum nesciunt quas aliquid nemo vero, magni praesentium aspernatur optio ratione deleniti accusamus dolorem temporibus fugit ipsa voluptate! Error repellat necessitatibus unde, impedit dolore blanditiis.</p>
+         </div>
+         <div id="evento_txt2">
+               <h3>EVENTO_DOS</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit molestias laudantium at eveniet repellat eaque tempore quibusdam alias illum, debitis esse minus sit cupiditate similique doloribus, qui perspiciatis id suscipit quod atque necessitatibus facilis iste veniam! Ad aspernatur, molestias in deleniti possimus illo, quia consequuntur quam ipsam est beatae.</p>
+         </div> 
+         <div id="evento_txt3">
+              <h3>EVENTO_TRES</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore laboriosam necessitatibus repellat inventore cumque cupiditate incidunt quidem tempora magni error voluptates voluptate maiores ut corrupti, sit expedita nihil blanditiis voluptas eligendi aliquid quis. Reiciendis tempore blanditiis optio reprehenderit qui ipsam porro dicta natus harum sit, enim saepe unde voluptatem a.</p>
+         </div>
+         <div id="evento_txt4">
+              <h3>EVENTO_CUATRO</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae consequatur ipsam autem quidem nesciunt atque deleniti eveniet dolores nisi? Amet laudantium illo ratione provident pariatur atque laboriosam alias? Reprehenderit, amet earum, corporis magni quam quia dolore asperiores fuga hic temporibus incidunt assumenda itaque est! Suscipit doloremque numquam itaque dolor!</p>
+         </div>
+       </div>           
+    </section>
+  </main>  
+  
+
+
+<?php
+include("pie.php");
+?>   
